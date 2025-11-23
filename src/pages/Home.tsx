@@ -32,7 +32,7 @@ export default function Home() {
               <h1 className="text-white font-bold text-5xl">Seja Bem-vindo Bryar</h1>
               <h2 className="text-white font-bold text-4xl pt-5">Melhor plataforma de</h2>
               <h2 className="text-white font-bold text-4xl">música atualmente</h2>
-              <span className="text-white font-medium text-lg pt-10">
+              <span className="text-white text-lg pt-10">
                 <p>Aproveite das melhores músicas, dos seus artistas favoritos</p>
                 <p>em qualquer lugar e quando quiser.</p>
               </span>
@@ -41,9 +41,26 @@ export default function Home() {
               <img className="h-60 p-12 border shadow-2xs bg-[#290d1f]" src="src/assets/images/LogoBig.png" />
             </div>
           </div>
-        </div>  
-        <div className="w-full h-screen bg-[#222426]">
-
+        </div>
+        <div className="w-full justify-center flex h-screen bg-[#222426]">
+          <div className="flex gap-10">
+            <div>
+              <h1 className="text-white text-center  font-bold text-5xl" >Conheça do nossos limites</h1>
+              <h2 className="text-white text-center  font-bold text-2xl pt-5">Com o Plano Super você pode ir além, pague e</h2>
+              <h2 className="text-white text-center font-bold text-2xl">Tenha total controle sobre sua rotina.</h2>
+              <div className="flex justify-center">
+                <div>
+                  <table>
+                    <tr className="border-b-2  border-white">
+                      <th className="pt-10 pr-10 pl-5 text-white">Benefícios</th>
+                      <th className="pt-10 pr-10 pl-10 text-white">Plano Free</th>
+                      <th className="pt-10 pr-5 pl-10 text-white">Plano Super</th> 
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </main>
     </>

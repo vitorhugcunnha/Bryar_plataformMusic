@@ -17,6 +17,9 @@ export default function NavBar() {
                             <li>
                                 <button>Planos</button>
                             </li>
+                            <li>
+                                <button>Configurações</button>
+                            </li>
                             <li className="font-normal"> | </li>
                             <li>
                                 <button>Cadastro</button>
