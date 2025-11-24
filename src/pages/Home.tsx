@@ -43,7 +43,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="w-full justify-center flex h-screen bg-[#222426]">
+        <div className="w-full justify-center flex h-min bg-[#222426]">
           <div className="flex gap-10">
             <div>
               <h1 className="text-white text-center  font-bold text-5xl" >Conheça do nossos limites</h1>
@@ -93,12 +93,25 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="w-full justify-center flex h-screen bg-[#222426]">
-          <div>
+        <div className="w-full h-min bg-[#222426]">
+          <div className="pt-20">
               <h1 className="text-white text-center  font-bold text-5xl" >Conheça do nossos Planos</h1>
-              <h2 className="text-white text-center  font-bold text-2xl pt-5">Com o Plano Super você pode ir além, pague e</h2>
-              <h2 className="text-white text-center font-bold text-2xl">Tenha total controle sobre sua rotina.</h2>
-          </div>  
+              <h3 className="text-white text-center text-[20px] pt-5">Escolha um plano Premium e ouça música sem anúncios <br /> de forma ilimitada, alto-falantes e em outros dispositivos.<br /> Vários métodos de pagamento. Cancele quando quiser.</h3>
+          </div>
+          <div className="flex justify-center gap-10 pt-20">
+            <div className="bg-white p-[4px] rounded-[5px]">
+              <img className="h-8 bg-[#ffffff] border-[2px] border-[#c7c7c7] rounded-[5px] pl-6 pr-6" src="src/assets/images/itau.png" />
+            </div>
+            <div className="bg-white p-[4px] rounded-[5px]">
+              <img className="h-8 bg-[#ffffff] border-[2px] border-[#c7c7c7] rounded-[5px] pl-2 pr-2" src="src/assets/images/master.png" />
+            </div>
+            <div className="bg-white p-[4px] rounded-[5px]">
+              <img className="h-8 bg-[#ffffff] border-[2px] border-[#c7c7c7] rounded-[5px] pl-4 pr-4 pt-2 pb-2" src="src/assets/images/pix.png" />
+            </div>
+            <div className="bg-white p-[4px] rounded-[5px]">
+              <img className="h-8 bg-[#ffffff] border-[2px] border-[#c7c7c7] rounded-[5px] pl-4 pr-4" src="src/assets/images/visa.png" />
+            </div>
+          </div>
         </div>
       </main>
     </>
