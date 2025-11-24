@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import {Check, X } from "lucide-react";
 import TRUNK from "vanta/dist/vanta.trunk.min";
 import * as THREE from "three";
 import NavBar from "../components/general/NavBar";
@@ -38,7 +39,7 @@ export default function Home() {
               </span>
             </div>
             <div>
-              <img className="h-60 p-12 border shadow-2xs bg-[#290d1f]" src="src/assets/images/LogoBig.png" />
+              <img className="h-60 p-12 border shadow-2xs bg-gradient-to-b from-black via-[#98465f] to-red-900" src="src/assets/images/LogoBig.png" />
             </div>
           </div>
         </div>
@@ -51,16 +52,53 @@ export default function Home() {
               <div className="flex justify-center">
                 <div>
                   <table>
-                    <tr className="border-b-2  border-white">
-                      <th className="pt-10 pr-10 pl-5 text-white">Benefícios</th>
-                      <th className="pt-10 pr-10 pl-10 text-white">Plano Free</th>
-                      <th className="pt-10 pr-5 pl-10 text-white">Plano Super</th> 
+                    <tr className="border-b border-white">
+                      <th className="py-6 pr-32 text-white">Benefícios</th>
+                      <th className="py-6 pr-10 pl-10 text-white">Plano Free</th>
+                      <th className="py-6 pr-10 pl-10 text-white">Plano Super</th>
+                    </tr>
+                    <tr className="border-b border-white hover:opacity-50 transition">
+                      <td className="py-6 pr-10 pl-5 text-white">Músicas sem anúncios.</td>
+                      <td className="py-6 pr-10 pl-16 text-white"><X className="text-black rounded-[50%] bg-white"/></td>
+                      <td className="py-6 pr-5 pl-10 flex justify-center items-center text-white"><Check className="text-black rounded-[50%] bg-white"/></td>
+                    </tr>
+                    <tr className="border-b border-white hover:opacity-50 transition">
+                      <td className="py-6 pr-10 pl-5 text-white">Ouvir Offline.</td>
+                      <td className="py-6 pr-10 pl-16 text-white"><X className="text-black rounded-[50%] bg-white"/></td>
+                      <td className="py-6 pr-5 pl-10 flex justify-center items-center text-white"><Check className="text-black rounded-[50%] bg-white"/>
+                      </td></tr>
+                    <tr className="border-b border-white hover:opacity-50 transition">
+                      <td className="py-6 pr-10 pl-5 text-white">Qualidade de áudio alta.</td>
+                      <td className="py-6 pr-10 pl-16 text-white"><X className="text-black rounded-[50%] bg-white"/></td>
+                      <td className="py-6 pr-5 pl-10 flex justify-center items-center text-white"><Check className="text-black rounded-[50%] bg-white"/></td>
+                    </tr>
+                    <tr className="border-b border-white hover:opacity-50 transition">
+                      <td className="py-6 pr-10 pl-5 text-white">Ouvir com os amigos em tempo real.</td>
+                      <td className="py-6 pr-10 pl-16 text-white"><X className="text-black rounded-[50%] bg-white"/></td>
+                      <td className="py-6 pr-5 pl-10 flex justify-center items-center text-white"><Check className="text-black rounded-[50%] bg-white"/></td>
+                    </tr>
+                    <tr className="border-b border-white hover:opacity-50 transition">
+                      <td className="py-6 pr-10 pl-5 text-white">Baixar músicas.</td>
+                      <td className="py-6 pr-10 pl-16 text-white"><X className="text-black rounded-[50%] bg-white"/></td>     
+                      <td className="py-6 pr-5 pl-10 flex justify-center items-center text-white"><Check className="text-black rounded-[50%] bg-white"/></td>
+                    </tr>
+                    <tr className="border-b border-white hover:opacity-50 transition">
+                      <td className="py-6 pr-10 pl-5 text-white">Ouça na ordem que você quiser.</td>
+                      <td className="py-6 pr-10 pl-16 text-white"><X className="text-black rounded-[50%] bg-white"/></td>
+                      <td className="py-6 pr-5 pl-10 flex justify-center items-center text-white"><Check className="text-black rounded-[50%] bg-white"/></td>
                     </tr>
                   </table>
                 </div>
               </div>
             </div>
           </div>
+        </div>
+        <div className="w-full justify-center flex h-screen bg-[#222426]">
+          <div>
+              <h1 className="text-white text-center  font-bold text-5xl" >Conheça do nossos Planos</h1>
+              <h2 className="text-white text-center  font-bold text-2xl pt-5">Com o Plano Super você pode ir além, pague e</h2>
+              <h2 className="text-white text-center font-bold text-2xl">Tenha total controle sobre sua rotina.</h2>
+          </div>  
         </div>
       </main>
     </>

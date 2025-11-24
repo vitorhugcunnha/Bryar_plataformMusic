@@ -15,17 +15,17 @@ export default function NavBar() {
                     <nav >
                         <ul className="flex gap-6 font-lexend font-bold text-white">
                             <li>
-                                <button>Planos</button>
+                                <button className="hover:opacity-50 transition">Planos</button>
                             </li>
                             <li>
-                                <button>Configurações</button>
+                                <button className="hover:opacity-50 transition">Configurações</button>
                             </li>
                             <li className="font-normal"> | </li>
                             <li>
-                                <button>Cadastro</button>
+                                <button className="hover:opacity-50 transition">Cadastro</button>
                             </li>
                             <li>
-                                <button>Login</button>
+                                <button className="hover:opacity-50 transition">Login</button>
                             </li>
                         </ul>
                     </nav>
