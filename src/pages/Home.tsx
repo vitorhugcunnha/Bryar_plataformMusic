@@ -4,6 +4,7 @@ import * as THREE from "three";
 import NavBar from "../components/general/NavBar";
 import { TableRow } from "../components/TableRow";
 import { FormasPagamentos } from "../components/FormasPagametos";
+import { PlanosSuper } from "../components/PlanosSuper";
 
 export default function Home() {
   useEffect(() => {
@@ -74,6 +75,21 @@ export default function Home() {
           <div className="flex justify-center gap-10 pt-20">
             <FormasPagamentos />
           </div>
+        </div>
+        <div>
+          <div className="w-full h-min bg-[#222426]">
+            <div className="flex items-center justify-center pb-20 pt-20">
+                <h1 className="text-white font-bold text-4xl pt-5">Planos Super</h1>
+            </div>
+          </div>
+          
+            <div className="w-full bg-[#222426] flex justify-evenly">
+              <div className="max-w-7xl flex flex-col md:flex-row gap-8 px-8">
+                <PlanosSuper />
+                <PlanosSuper />
+                <PlanosSuper />
+              </div>
+            </div>
         </div>
       </main>
     </>
