@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import {planos} from "../data/planos.ts";
 import TRUNK from "vanta/dist/vanta.trunk.min";
 import * as THREE from "three";
 import NavBar from "../components/general/NavBar";
@@ -85,9 +86,10 @@ export default function Home() {
           
             <div className="w-full bg-[#222426] flex justify-evenly">
               <div className="max-w-7xl flex flex-col md:flex-row gap-8 px-8">
-                <PlanosSuper />
-                <PlanosSuper />
-                <PlanosSuper />
+                {planos.map((plano, index) => (
+                  <PlanosSuper
+                    key={index} {...plano}/>
+                ))}
               </div>
             </div>
         </div>
