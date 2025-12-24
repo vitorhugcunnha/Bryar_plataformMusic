@@ -6,6 +6,7 @@ import NavBar from "../components/general/NavBar";
 import { TableRow } from "../components/TableRow";
 import { FormasPagamentos } from "../components/FormasPagametos";
 import { PlanosSuper } from "../components/PlanosSuper";
+import { FooterHome } from "../components/footerHome";
 
 export default function Home() {
   useEffect(() => {
@@ -94,13 +95,7 @@ export default function Home() {
             </div>
             <div className="w-full h-min bg-[#000000]">
               <footer className="flex justify-evenly items-center h-32">
-                  <div>
-                    <img className="h-[60px]" src="src/assets/images/Logo.png"/>
-                  </div>
-                  <div className="flex flex-col">
-                    <span className="text-white">Todos Direitos Autorais de Vitor Hugo da Cunha</span>
-                    <span className="text-white">© 2024 Bryar Music.</span>
-                  </div>
+                <FooterHome />
               </footer>
             </div>
         </div>
