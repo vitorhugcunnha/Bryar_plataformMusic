@@ -1,4 +1,6 @@
-export const planos = [
+import { Plan } from "../types/types";
+
+export const planos: Plan[] = [
   {
     bg_card: "#299F5E",
     nome_plano: "Individual",

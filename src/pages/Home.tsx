@@ -12,7 +12,7 @@ export default function Home() {
     TRUNK({
       el: "#vanta",
       THREE: THREE,
-      backgroundColor: 0x222426,
+      backgroundColor: 0x1f2020,
       color: 0x98465f,
       mouseControls: true,
       touchControls: true,
@@ -46,7 +46,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="w-full justify-center flex h-min bg-[#222426]">
+        <div className="w-full justify-center flex h-min bg-[#1f2020]">
           <div className="flex gap-10">
             <div>
               <h1 className="text-white text-center  font-bold text-5xl" >Conheça do nossos limites</h1>
@@ -68,7 +68,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="w-full h-min bg-[#222426]">
+        <div className="w-full h-min bg-[#1f2020]">
           <div className="pt-20">
               <h1 className="text-white text-center  font-bold text-5xl" >Conheça do nossos Planos</h1>
               <h3 className="text-white text-center text-[20px] pt-5">Escolha um plano Premium e ouça música sem anúncios <br /> de forma ilimitada, alto-falantes e em outros dispositivos.<br /> Vários métodos de pagamento. Cancele quando quiser.</h3>
@@ -78,19 +78,30 @@ export default function Home() {
           </div>
         </div>
         <div>
-          <div className="w-full h-min bg-[#222426]">
+          <div className="w-full h-min bg-[#1f2020]">
             <div className="flex items-center justify-center pb-20 pt-20">
                 <h1 className="text-white font-bold text-4xl pt-5">Planos Super</h1>
             </div>
           </div>
-          
-            <div className="w-full bg-[#222426] flex justify-evenly">
-              <div className="max-w-7xl flex flex-col md:flex-row gap-8 px-8">
+            <div className="w-full bg-[#1f2020] flex justify-evenly">
+              <div className="max-w-7xl flex flex-col md:flex-row gap-8 px-8 mb-32">
                 {planos.map((plano, index) => (
                   <PlanosSuper
-                    key={index} {...plano}/>
+                    key={index}
+                    plan={plano}/>
                 ))}
               </div>
+            </div>
+            <div className="w-full h-min bg-[#000000]">
+              <footer className="flex justify-evenly items-center h-32">
+                  <div>
+                    <img className="h-[60px]" src="src/assets/images/Logo.png"/>
+                  </div>
+                  <div className="flex flex-col">
+                    <span className="text-white">Todos Direitos Autorais de Vitor Hugo da Cunha</span>
+                    <span className="text-white">© 2024 Bryar Music.</span>
+                  </div>
+              </footer>
             </div>
         </div>
       </main>
