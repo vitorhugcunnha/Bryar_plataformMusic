@@ -6,7 +6,7 @@ import NavBar from "../components/general/NavBar";
 import { TableRow } from "../components/TableRow";
 import { FormasPagamentos } from "../components/FormasPagametos";
 import { PlanosSuper } from "../components/PlanosSuper";
-import { FooterHome } from "../components/footerHome";
+import { FooterHome } from "../components/FooterHome";
 
 export default function Home() {
   useEffect(() => {
