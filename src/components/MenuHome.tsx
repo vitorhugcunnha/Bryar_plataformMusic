@@ -29,18 +29,16 @@ export function MenuHome() {
         id="vanta" className="w-full h-screen flex items-center justify-center">
         <div className="flex items-center justify-center gap-10">
             <div>
-            <h1 className="text-white font-bold text-5xl">Seja Bem-vindo Bryar</h1>
-            <h2 className="text-white font-bold text-4xl pt-5">Melhor plataforma de</h2>
-            <h2 className="text-white font-bold text-4xl">música atualmente</h2>
+            <h1 className="text-white font-bold text-3xl">Seja Bem-vindo Bryar</h1>
+            <h2 className="text-white font-bold text-2xl pt-5">Melhor plataforma de</h2>
+            <h2 className="text-white font-bold text-2xl">música atualmente</h2>
             <span className="text-white text-lg pt-10 block">
                 <p>Aproveite das melhores músicas, dos seus artistas favoritos</p>
                 <p>em qualquer lugar e quando quiser.</p>
             </span>
             </div>
-            <div>
-            <img
-                className="h-60 p-12 border shadow-2xs bg-gradient-to-b from-black via-[#98465f] to-red-900" src="src/assets/images/LogoBig.png" alt="Logo Bryar"
-            />
+            <div className="p-16 bg-gradient-to-r from-[#990000] via-[#98465f] to-yellow-400 border-white border-2"> 
+              <img src="src/assets/images/logoBryar.png" />
             </div>
         </div>
     </div>
