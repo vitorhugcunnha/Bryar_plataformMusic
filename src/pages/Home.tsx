@@ -1,6 +1,3 @@
-import { useEffect, useRef } from "react";
-import TRUNK from "vanta/dist/vanta.trunk.min";
-import * as THREE from "three";
 import {planos} from "../data/planos.ts";
 import NavBar from "../components/general/NavBar";
 import { TableRow } from "../components/TableRow";
@@ -10,27 +7,7 @@ import { PlanosSuper } from "../components/PlanosSuper";
 import { FooterHome } from "../components/FooterHome";
 
 export default function Home() {
-   const vantaRef = useRef<HTMLDivElement | null>(null);
-
-  useEffect(() => {
-    if (!vantaRef.current) return;
-
-    const vantaEffect = TRUNK({
-    el: vantaRef.current,
-    THREE,
-    backgroundColor: 0x1f2020,
-    color: 0x98465f,
-    mouseControls: true,
-    touchControls: true,
-    gyroControls: false,
-    spacing: 2.0,
-    chaos: 4.0,
-});
-
-    return () => {
-      vantaEffect.destroy();
-    };
-  }, []);
+   
   return (
     <>
       <NavBar />
