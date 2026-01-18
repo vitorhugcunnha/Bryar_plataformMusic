@@ -29,10 +29,10 @@ export function MenuHome() {
         id="vanta" className="w-full h-screen flex items-center justify-center">
         <div className="flex items-center justify-center gap-10">
             <div>
-            <h1 className="text-white font-bold text-3xl">Seja Bem-vindo Bryar</h1>
-            <h2 className="text-white font-bold text-2xl pt-5">Melhor plataforma de</h2>
-            <h2 className="text-white font-bold text-2xl">música atualmente</h2>
-            <span className="text-white text-lg pt-10 block">
+            <h1 className="pl-1.5 text-white font-bold text-3xl">Seja Bem-vindo Bryar</h1>
+            <h2 className="text-white pl-1.5 font-bold text-2xl pt-5">Melhor plataforma de</h2>
+            <h2 className="text-white pl-1.5 font-bold text-2xl">música atualmente</h2>
+            <span className="text-white pl-1.5 text-lg pt-10 block">
                 <p>Aproveite das melhores músicas, dos seus artistas favoritos</p>
                 <p>em qualquer lugar e quando quiser.</p>
             </span>

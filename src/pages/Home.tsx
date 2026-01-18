@@ -1,40 +1,18 @@
 import {planos} from "../data/planos.ts";
 import NavBar from "../components/general/NavBar";
-import { TableRow } from "../components/TableRow";
+import { TableSection } from "../components/TableSection";
 import { MenuHome } from "../components/MenuHome";
 import { FormasPagamentos } from "../components/FormasPagametos";
 import { PlanosSuper } from "../components/PlanosSuper";
 import { FooterHome } from "../components/FooterHome";
 
 export default function Home() {
-   
   return (
     <>
       <NavBar />
       <main>
         <MenuHome />
-        <div className="w-full justify-center flex h-min bg-[#1f2020]">
-          <div className="flex gap-10">
-            <div>
-              <h1 className="text-white text-center  font-bold text-5xl" >Conheça do nossos limites</h1>
-              <h2 className="text-white text-center  font-bold text-2xl pt-5">Com o Plano Super você pode ir além, pague e</h2>
-              <h2 className="text-white text-center font-bold text-2xl">Tenha total controle sobre sua rotina.</h2>
-              <div className="flex justify-center">
-                <div>
-                  <table>
-                    <TableRow isTop/>
-                    <TableRow text="Músicas sem anúncios"/>
-                    <TableRow text="Ouvir Offline"/>
-                    <TableRow text="Ouvir com os amigos em tempo real."/>
-                    <TableRow text="Qualidade de aúdio alta."/>
-                    <TableRow text="Baixar músicas."/>
-                    <TableRow text="Ouvir na ordem que você que você quiser."/>
-                  </table>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+          <TableSection />
         <div className="w-full h-min bg-[#1f2020]">
           <div className="pt-20">
               <h1 className="text-white text-center  font-bold text-5xl" >Conheça do nossos Planos</h1>
