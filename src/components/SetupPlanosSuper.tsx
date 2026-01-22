@@ -11,8 +11,8 @@ export function SetupPlanosSuper() {
                 </div>
             </div>
             <div className="w-full bg-[#1f2020] flex justify-evenly">
-                <div className="max-w-7xl flex flex-col md:flex-row gap-8 px-8 mb-32">
-                    {planos.map((plano: Plan, index: number) => (
+                <div className="max-w-7xl flex flex-col md:flex-row gap-8 mb-32">
+                    {planos.map((plano: Plan, index) => (
                         <PlanosSuper
                         key={index}
                         plan={plano}/>
