@@ -7,7 +7,7 @@ interface PlanosSuperProps {
 export function PlanosSuper({ plan }: PlanosSuperProps) {
     return (
     <div className="w-full h-min bg-[#222426]">
-        <div className="w-96 h-[620px] relative bg-[#363636] rounded-xl">
+        <div className="w-96 h-[620px] relative bg-[#363636] rounded-xl cursor-pointer transition-all duration-700 ease-out hover:-translate-y-3 hover:shadow-4xl">
         <div className="w-60 h-11 rounded-tl-xl rounded-br-xl flex items-center justify-center" style={{backgroundColor : plan.bg_card}}>
             <img className="h-min w-24" src="src/assets/images/Logo.png" />
         </div>
