@@ -20,7 +20,6 @@ export default function NavBar() {
             <li>
                 <button className="hover:opacity-50">Configurações</button>
             </li>
-            <li>|</li>
             <li>
                 <button className="hover:opacity-50">Cadastro</button>
             </li>
