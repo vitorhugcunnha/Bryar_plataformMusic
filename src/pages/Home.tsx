@@ -11,14 +11,10 @@ export default function Home() {
       <NavBar />
       <main>
         <MenuHome />
-          <TableSection />
-            <PagamentosSetup />
-          <SetupPlanosSuper />
-            <div className="w-full h-min bg-[#000000]">
-              <footer className="flex justify-evenly items-center h-32">
-                <FooterHome />
-              </footer>
-            </div>
+        <TableSection />
+        <PagamentosSetup />
+        <SetupPlanosSuper />
+        <FooterHome />
       </main>
     </>
   );
