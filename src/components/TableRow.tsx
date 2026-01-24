@@ -16,7 +16,7 @@ export function TableRow({ isTop, text }: RowProps) {
                     <th className="py-6 pl-9 pr-1 text-white">Plano Super</th>
                 </tr>
             :
-                <tr className="border-b border-white hover:opacity-50 transition">
+                <tr className="border-b border-white hover:opacity-50 transition-all duration-700 ease-out hover:-translate-y-1 hover:shadow-4xl">
                     <td className="py-6 pl-5 text-[12px] text-white">{text}</td>
                     <td className="py-6 pl-16 text-white"><X className="text-black rounded-[50%] bg-white"/></td>
                     <td className="py-6 pl-7 flex justify-center items-center text-white"><Check className="text-black rounded-[50%] bg-white"/></td>
