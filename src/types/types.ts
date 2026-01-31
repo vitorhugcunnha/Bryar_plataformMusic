@@ -5,5 +5,6 @@ export interface Plan {
   preco_text: string,
   beneficios: string[],
   cor_hover: string,
-  text_oferta: string
+  text_oferta: string,
+  link: string
 }

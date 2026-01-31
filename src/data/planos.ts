@@ -12,7 +12,8 @@ export const planos: Plan[] = [
       "Liberdade para cancelar quando quiser"
     ],
     cor_hover: "#227548",
-    text_oferta: "R$0 por 3 meses"
+    text_oferta: "R$0 por 3 meses",
+    link: "/planos/individual"
   },
   {
     bg_card: "#FF4777",
@@ -25,7 +26,8 @@ export const planos: Plan[] = [
       "1 Conta Administradora"
     ],
     cor_hover: "#f02258",
-    text_oferta: "R$0 por 1 mês"
+    text_oferta: "R$0 por 1 mês",
+    link: "/planos/familia"
   },
   {
     bg_card: "#1d53d1",
@@ -38,6 +40,7 @@ export const planos: Plan[] = [
       "Comprovação de matrícula Universitária"
     ],
     cor_hover: "#0841c9",
-    text_oferta: "R$0 por 1 mês"
+    text_oferta: "R$0 por 1 mês",
+    link: "/planos/universitario"
   }
 ]
