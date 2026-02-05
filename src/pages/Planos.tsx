@@ -1,5 +1,6 @@
 import { useParams, Navigate } from "react-router-dom";
 import { planos } from "../data/planos";
+import { MenuPlanos } from "../components/MenuPlanos";
 
 export default function Planos(){
     const { tipo_plano } = useParams();
@@ -12,7 +13,7 @@ export default function Planos(){
 
     return(
         <>
-            
+            <MenuPlanos />
         </>
     )
 }
